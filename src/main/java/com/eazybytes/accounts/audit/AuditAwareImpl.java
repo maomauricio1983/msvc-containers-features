@@ -7,7 +7,7 @@ import java.util.Optional;
 
 
 
-// bloque d ecodigo para dar el valor a UPDATED_BY t CREATED_BY
+// bloque de codigo para dar el valor a UPDATED_BY t CREATED_BY
 @Component("auditAwareImpl")
 public class AuditAwareImpl implements AuditorAware<String> {
 
